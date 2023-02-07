@@ -1,0 +1,152 @@
+body{
+    background-color: #ffd24c;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 20px;
+    }
+    
+  a{
+      text-decoration: none;
+      color: #000;
+    }
+    
+  a:hover{
+      color:#fff;
+      text-decoration: line-through;
+      background: #000;
+    }
+  
+  a:active{
+      color:rgb(0, 59, 238);
+      text-decoration: line-through;
+      background: #000;
+    }
+  
+  .clr{
+      clear:both;
+    }
+  
+  #icon{
+      float:left;
+      width:30%;
+      margin-bottom: 10px;
+    }
+  
+  #caption{
+      float:right;
+      width:60%;
+    }
+  
+  .herobody{
+    display: flex;
+    float:left;
+    border-bottom-style: dotted;
+    border-bottom-color: #092e50;
+    border-bottom-width: 5px;
+    padding-bottom: 20px;
+  }
+  
+    .hero{
+      float:right;
+      margin-top:30px;
+    }
+  
+    .bio{
+      float:center;
+      margin-top: 140px;
+      margin-left:30px;
+    }
+  
+    .block :hover{
+      color:#fff;
+      text-decoration: line-through;
+      background: #000;
+    }
+  
+    body ul{
+      padding: 0;
+      list-style: none;
+      text-transform: uppercase;
+    }
+  
+    p{
+      max-width: 80%;
+    }
+    
+  
+  .main-header {
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+  .main-nav ul{
+    display:flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: space-between;
+  
+  }
+  
+  div .main-nav{
+    float: right;
+  }
+  
+  .button li{
+    margin-left: 20px;
+    float: right;
+  
+  }
+  
+    .container{
+      margin: auto;
+      width:70%;
+      border-bottom-style: dotted;
+      border-bottom-color: #092e50;
+      border-bottom-width: 5px;
+    }
+  
+    .container h1{
+      font-size:52px;
+    }
+  
+    .title{
+      letter-spacing: 1em;
+      text-transform: uppercase;
+    }
+  
+    .block{
+      width: 45%;
+      margin: auto;
+      float: center;
+      border: 1px black solid;
+  
+    }
+  
+   .block img:hover{
+    opacity:70%;
+   }
+  
+    .block img{
+      height: 160px;
+      width: 210px;
+    }
+  
+  button{
+    float:right;
+    padding: 5px;
+    margin:7px;
+  }
+  
+  
+  footer{
+  margin-top: 55px;
+  border-top: #092e50;
+  border-top-style: dotted;
+  border-top-width: 5px;
+    display:flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: space-between;
+  }
+  
