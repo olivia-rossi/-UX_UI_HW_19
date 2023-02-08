@@ -12,13 +12,13 @@ body{
     
   a:hover{
       color:#fff;
-      text-decoration: line-through;
+      text-decoration: underline;
       background: #000;
     }
   
   a:active{
       color:rgb(0, 59, 238);
-      text-decoration: line-through;
+      text-decoration: underline;
       background: #000;
     }
   
@@ -59,7 +59,7 @@ body{
   
     .block :hover{
       color:#fff;
-      text-decoration: line-through;
+      text-decoration: underline;
       background: #000;
     }
   
